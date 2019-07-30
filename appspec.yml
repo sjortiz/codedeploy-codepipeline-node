@@ -6,7 +6,7 @@ phases:
       nodejs: 8
   pre_build:
     commands:
-      - scripts/install_dependencies.sh
+      - npm i -g pm2@2.4.3
   build:
     commands:
       - echo "hi"
