@@ -4,6 +4,9 @@ phases:
   install:
     runtime-versions:
       nodejs: 8
+  pre_build:
+    commands:
+      - scripts/install_dependencies.sh
   build:
     commands:
       - echo "hi"
