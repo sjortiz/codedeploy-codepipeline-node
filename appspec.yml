@@ -2,5 +2,8 @@ version: 0.2
 os: linux
 phase:
   install:
+    runtime-versions:
+      node:8
+  build:
     commands:
       - echo "hi"
