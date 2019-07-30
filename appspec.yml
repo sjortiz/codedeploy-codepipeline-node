@@ -1,6 +1,6 @@
 version: 0.2
 os: linux
-phase:
+phases:
   install:
     runtime-versions:
       node: 8
